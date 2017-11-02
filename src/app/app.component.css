@@ -1,0 +1,8 @@
+.jumbotron .container {
+  margin-top: 0px;
+  position: relative;
+  top:100px;
+}
+h2.italic {
+    font-style: italic;
+}

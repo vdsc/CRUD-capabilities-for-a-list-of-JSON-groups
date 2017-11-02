@@ -1,0 +1,16 @@
+.pointer{
+    cursor: pointer;
+}
+
+.center-block {  
+    width:500px;  
+    padding:10px;  
+    background-color:lightsteelblue;  
+    color:#ec8007  
+} 
+
+.borderstatus
+{
+border-style:solid;
+border-color:black;
+}

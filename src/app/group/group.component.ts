@@ -17,17 +17,18 @@ column: string = 'CategoryName';
 direction: number;
 group: any =[];
 
+
   constructor(private _getjsonservice: GetjsonService, private router: Router ) { }
 
   ngOnInit() {
     console.log("calling from group component");
     
     this._getjsonservice.getAllPosts().subscribe(posts => {
-      this._getjsonservice.group = posts;// storing in service to share json with group detail component
-      this.group= posts;
+      this.group = posts;
+      console.log('group', this.group);
      
     });
-    console.log(this._getjsonservice.group);
+    
     
   }
   sort(property){
@@ -37,9 +38,13 @@ group: any =[];
   };
 
   goToDetails(id) {
-    console.log(id); 
+    //console.log(id); 
     
   this.router.navigate(['/groupdetails', id]);
 }
+
+
+  
+ 
 
 }

@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   
 })
 export class AppComponent {
-  title = ' CRUD capabilities for a list';
+  title = 'CRUD capabilities for a list';
 }

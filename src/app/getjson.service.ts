@@ -6,7 +6,7 @@ import 'rxjs/Rx';
 @Injectable()
 export class GetjsonService {
 group: any = [];
-test: any;
+
 
   constructor(private _http:Http) { 
     console.log("service ready....");
@@ -14,19 +14,24 @@ test: any;
 
  // Get all posts from the API
   getAllPosts() {
-    console.log("I am here");
+    //console.log("I am here");
     
     return this._http.get('/api/group')
       .map(res => res.json());
   }
-    getdetails(id){
-      return this.test = this.group.filter((x => x.id === id))
-      //console.log(this.test.members);
+
+
+  // getdetails(id){
+  //     this.group = this._http.get('/api/group')
+  //     .map(res => res.json())
+
+  //     console.log(this.group);
       
-      //console.log("group",this.group);
+  //     return this.group.filter((x => x.id === id));
       
-      //this.group.filter(x => x.value === 2)
-    }
+      
+      
+  //   }
 
 }
 

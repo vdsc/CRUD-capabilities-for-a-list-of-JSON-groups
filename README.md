@@ -1,5 +1,12 @@
 # Virginiatech
 
+<img src="image.JPG" alt="product inventory">
+
+To run: ng build && node server.js  
+Backend: nodeJS and Express run on localhost:3000
+Front end: Angular 2+ cli
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.5.
 
 ## Development server

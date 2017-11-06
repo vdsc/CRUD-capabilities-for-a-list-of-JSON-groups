@@ -1,8 +1,9 @@
-.jumbotron .container {
-  margin-top: 0px;
-  position: relative;
-  top:100px;
+.container{
+  background-color: grey;
 }
-h2.italic {
-    font-style: italic;
+.sub-container{
+  background-color: grey;
+}
+.out-container{
+  background-color: white;
 }

@@ -2,20 +2,56 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ng2-bootstrap/x.x.x/ng2-bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.5/css/bootstrap.css">
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-<div class="container-fluid">
-  <br>
-  <br>
-      <div class="jumbotron">
-        <h2>Javascript single page application </h2> 
-        <app-group></app-group>
+     
 
-      
-        <h2 class="italic">Simple app for column sorting and displaying group and group details</h2>
-        
-    </div>
+<title>Interview assignment Vtech</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+<body>
+
+<div class="container" style="position:relative">
+ 
+ <h1 class="text-grey" style="text-shadow:1px 1px 0 #444">Javascript single page application</h1>
 </div>
-    <!-- Router Outlet -->
-    <router-outlet></router-outlet>
+
+<div class="jumbo w3-animate-zoom" style="padding:20px 50px;background-image:url('./assets/background.jpg');
+background-size:cover;">
+
+        <div class="w3-section w3-row-padding">
+
+        <div >
+            <div >
+            <div class="app-container">
+                
+                <app-group></app-group>
+                
+                
+            </div>
+            <div class="sub-container ">
+                <p>*****Please try refreshing the page if the data is not populated*****</p>        
+            </div>
+            </div>
+        </div>
+                <div >
+                    <div >
+                    <div class="out-container">
+                    <router-outlet></router-outlet>
+                    </div>
+                    
+                    </div>
+                </div>
+        </div>
+
+</div>
+
+<footer class="container">
+  <p> 
+  <a href="" target="_blank"></a></p>
+</footer>
+
+</body>
+
+
 
 
 
